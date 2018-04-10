@@ -70,7 +70,8 @@ var MathJax3 = function (_PureComponent) {
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				null,
+				{ style: this.props.style,
+					className: this.props.className },
 				this.props.children
 			);
 		}
@@ -92,7 +93,9 @@ var MathJax3 = function (_PureComponent) {
 MathJax3.propTypes = {
 	inputType: _propTypes2.default.oneOf(["MathML", "TeX", "AsciiMath"]),
 	inputOption: _propTypes2.default.object,
-	children: _propTypes2.default.any
+	children: _propTypes2.default.any,
+	style: _propTypes2.default.object,
+	className: _propTypes2.default.string
 };
 MathJax3.defaultProps = {
 	inputType: "TeX"

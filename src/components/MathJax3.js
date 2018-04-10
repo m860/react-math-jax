@@ -10,7 +10,9 @@ export default class MathJax3 extends PureComponent {
 	static propTypes = {
 		inputType: PropTypes.oneOf(["MathML", "TeX", "AsciiMath"]),
 		inputOption: PropTypes.object,
-		children: PropTypes.any
+		children: PropTypes.any,
+		style: PropTypes.object,
+		className: PropTypes.string
 	};
 	static defaultProps = {
 		inputType: "TeX"
@@ -47,7 +49,8 @@ export default class MathJax3 extends PureComponent {
 
 	render() {
 		return (
-			<div>
+			<div style={this.props.style}
+				 className={this.props.className}>
 				{this.props.children}
 			</div>
 		);
