@@ -1,5 +1,5 @@
 {
-  "name": "@m860/react-math-jax",
+  "name": "@m860/react-mathjax3",
   "version": "0.0.1",
   "description": "",
   "main": "./components/MathJax3.js",
