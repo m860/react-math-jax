@@ -1,8 +1,8 @@
 {
-  "name": "react-math-jax",
+  "name": "@m860/react-math-jax",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./components/MathJax3.js",
   "scripts": {
     "test": "jest --verbose",
     "dev": "webpack-dev-server --host 0.0.0.0 --progress  --port 3000 --content-base src/",
@@ -28,6 +28,7 @@
     "babel-eslint": "^8.1.2",
     "babel-jest": "^22.0.4",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-runtime": "^6.26.0",
@@ -60,5 +61,8 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "mathjax3": "^3.0.0-alpha.3"
   }
 }

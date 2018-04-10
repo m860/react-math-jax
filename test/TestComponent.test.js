@@ -3,7 +3,7 @@
  */
 import React from "react";
 import {mount,configure} from "enzyme";
-import TestComponent from '../src/components/TestComponent'
+import TestComponent from '../src/components/MathJax3'
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
