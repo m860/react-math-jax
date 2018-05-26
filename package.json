@@ -1,6 +1,6 @@
 {
   "name": "@m860/react-mathjax3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./components/MathJax3.js",
   "scripts": {
@@ -63,6 +63,6 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "mathjax3": "^3.0.0-alpha.3"
+    "mathjax3": "3.0.0-alpha.3"
   }
 }
